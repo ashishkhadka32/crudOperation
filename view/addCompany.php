@@ -23,7 +23,7 @@ include '../view/component/header.php';
                     <input type="text" id="email" name="email" class="w-full border p-2 rounded" required>
                 </div>
                 <div class="col-span-2 text-center mt-4">
-                    <button class="bg-blue-500 text-white px-4 py-2 rounded">Submit</button>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded">Add Company</button>
                 </div>
             </div>
         </form>

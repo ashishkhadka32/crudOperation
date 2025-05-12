@@ -3,9 +3,10 @@ include '../view/component/header.php';
 ?>
 
 <section>
+    <!-- <?php include('../view/toast.php'); ?> -->
 <div class="flex justify-end m-2">
     <a href="../view/addCompany.php">
-        <button class="bg-green-500 hover:bg-green-600 text-white rounded text-[18px] py-2">
+        <button class="bg-green-500 hover:bg-green-600 text-white rounded text-[18px] px-3 mt-2 py-1 mr-2">
             Add Company
         </button>
     </a>

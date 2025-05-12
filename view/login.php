@@ -1,6 +1,7 @@
     <?php
     session_start();
     ?>
+
     <!DOCTYPE html>
     <html lang="en">
 
@@ -11,7 +12,6 @@
         <script src="https://cdn.tailwindcss.com"></script> <!-- Use CDN for testing -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
-
     <body>
         <body class="bg-gray-100 flex items-center justify-center min-h-screen">
             <form action="../auth/processLogin.php" method="post" class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">

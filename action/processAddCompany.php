@@ -12,7 +12,7 @@ if(isset($_POST))
     $res = mysqli_query($conn, $sql);
 
     if($res){
-        echo "<script>alert('Company added successfully!'); window.location.href='../view/displayCompany.php';</script>";
+        header("Location: ../view/displayCompany.php");
     }
     else{
         echo"not inserted";
